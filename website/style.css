@@ -99,9 +99,8 @@ span,
 ul,
 li,
 h1,
-h2,
-img {
-  z-index: 4;
+h2 {
+  z-index: 3;
 }
 
 * {
@@ -173,16 +172,23 @@ header {
   animation: fadeInBottom 2s;
 }
 
-.main-content {
-  z-index: 2;
+.gradient-contatiner {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
-.gradient-for-line {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  width: 100%;
-  height: 100%;
+.gradient-push {
+  flex: auto;
+  width: 909px;
+}
+
+.gradient {
+  flex: auto;
   background-image: linear-gradient(
     to top,
     black,
