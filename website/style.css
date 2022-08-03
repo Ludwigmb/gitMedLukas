@@ -155,7 +155,7 @@ header {
   animation: flexAnimation 1s;
 }
 
-.flex-all-content {
+.content {
   display: flex;
   flex-direction: row;
   margin: auto;
