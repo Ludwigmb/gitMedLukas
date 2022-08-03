@@ -301,7 +301,7 @@ footer {
     margin: 20px;
   }
 
-  p span {
+  h3 {
     font-size: 34px;
   }
 
@@ -383,7 +383,7 @@ footer {
     width: 200px;
   }
 
-  p span {
+  h3 {
     font-size: 26px;
   }
 
@@ -431,7 +431,7 @@ footer {
     font-size: 15px;
   }
 
-  p span {
+  h3 {
     font-size: 20px;
     font-weight: 600;
   }
