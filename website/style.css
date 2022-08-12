@@ -104,9 +104,16 @@ img {
   z-index: 4;
 }
 
-* {
+div {
   box-sizing: border-box;
   margin: 0;
+}
+
+p,
+li,
+h1,
+h2,
+h3 {
   color: white;
   font-family: "Roboto Mono", monospace;
   line-height: 30px;
