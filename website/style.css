@@ -96,16 +96,6 @@ body {
   margin: 0;
 }
 
-p,
-span,
-ul,
-li,
-h1,
-h2,
-img {
-  z-index: 4;
-}
-
 div {
   box-sizing: border-box;
   margin: 0;
@@ -129,7 +119,7 @@ header {
   margin: auto;
   align-items: stretch;
   height: 10vh;
-  z-index: 4;
+  z-index: 1;
   width: 100%;
 }
 
@@ -174,20 +164,19 @@ header {
   justify-content: space-evenly;
 }
 
-.line div {
+.line-border {
   border-right: red 5px dashed;
   animation: fadeInBottom 2s;
 }
 
 .main-content {
-  z-index: 2;
 }
 
 .gradient-for-line {
   position: fixed;
   z-index: 2;
   top: 0;
-  width: 100%;
+  width: 5px;
   height: 100%;
   background-image: linear-gradient(
     to top,
@@ -283,7 +272,7 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #232323;
-  z-index: 3;
+  z-index: 2;
 }
 
 /* for tablets */
