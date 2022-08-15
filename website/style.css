@@ -92,6 +92,8 @@
 
 body {
   background-image: linear-gradient(-90deg, #181818, black);
+  box-sizing: border-box;
+  margin: 0;
 }
 
 p,
