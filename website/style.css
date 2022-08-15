@@ -169,9 +169,6 @@ header {
   animation: fadeInBottom 2s;
 }
 
-.main-content {
-}
-
 .gradient-for-line {
   position: fixed;
   z-index: 2;
