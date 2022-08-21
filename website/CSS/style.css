@@ -12,7 +12,7 @@ p,
 li,
 h1,
 h2,
-h3 {
+.text-box-title {
   color: white;
   font-family: "Roboto Mono", monospace;
   line-height: 30px;
@@ -91,7 +91,7 @@ header {
   );
 }
 
-h3 {
+.text-box-title {
   font-size: 30px;
   line-height: 40px;
 }
@@ -195,7 +195,7 @@ footer {
     margin: 20px;
   }
 
-  h3 {
+  .text-box-title {
     font-size: 34px;
   }
 
@@ -277,7 +277,7 @@ footer {
     width: 200px;
   }
 
-  h3 {
+  .text-box-title {
     font-size: 26px;
   }
 
@@ -325,7 +325,7 @@ footer {
     font-size: 15px;
   }
 
-  h3 {
+  .text-box-title {
     font-size: 20px;
     font-weight: 600;
   }
