@@ -3,11 +3,6 @@ body {
   margin: 0;
 }
 
-div {
-  box-sizing: border-box;
-  margin: 0;
-}
-
 p,
 li,
 h1,
@@ -72,6 +67,7 @@ header {
 
 .line-border {
   border-right: red 5px dashed;
+  box-sizing: border-box;
 }
 
 .gradient-for-line {
