@@ -5,103 +5,97 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
         </style>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/animations.css">
     </head>
     <body>
         <header>
-            <div class="header-text header-text-title">
-                <h1>
+            <div class="header-text header-text-title-container">
+                <h1 class="header-text-title">
                     Ludwig M. Barbagallo
                 </h1>
             </div>
-            <a href="#contact" class="header-text header-text-contact">
-                <h2>
+            <a href="#contact" class="header-text header-text-contact-container">
+                <h2 class="header-text-contact">
                     Contact
                 </h2>
             </a>
         </header>
-        <div class="flex-all-content">
+        <div class="content">
             <div class="line">
-                <div></div>
+                <div class="gradient-for-line"></div>
+                <div class="line-border"></div>
             </div>
-            <div id="main-content">
-                <div class="text-image-flex">
+            <div class="main-content">
+                <div class="text-image">
                     <div class="introduction width-mobile">
+                        <h3 class="text-box-title">Hi! I am a developer</h3>
                         <p>
-                            <span>Hi! I am a developer</span>
-                            <br>
-                            <br>
+                            <br/>
                             I am a front end and 
-                            back end developer, that creates technical solutions for <br>
-                            companies/clients of all genres.
-                            <br>
-                            <br>
+                            back end developer, that creates technical solutions for <br/>
+                            companies/clients of all types.
+                            <br/>
+                            <br/>
                             Want to see some of my work? 
-                            <br>
+                            <br/>
                             ...You are looking at it!
                         </p>
                     </div>
-                    <div class="image-container-3">
-                        <img src="image-1.png" alt="image could not be displayed">
+                    <div class="portrait-img-container">
+                        <img src="static/images/portrait.png" alt="A portrait of me, Ludwig Madsen Barbagallo" class="portrait-img"/>
                     </div>
                 </div>
-                <div class="text-image-flex">
+                <div class="text-image">
                     <div class="development-for-multible-mediums width-mobile">
-                        <p>
-                            <span>Development for multible mediums:</span><br>
-                            <br>
-                            <ul>
-                                <li>Web application development,</li>
-                                <li>Smartphone app development. </li>
-                            </ul>
-                            <br>  
-                        </p>
-                        <p>
-                            <span>Types of development:</span><br>
-                            <br>
-                            <ul>
-                                <li>Frontend & graphical user interface,</li>
-                                <li>Backend & server development.</li>
-                            </ul>
-                        </p>  
+                        <h3 class="text-box-title">Development for multible mediums:</h3>
+                        <br/>
+                        <ul>
+                            <li>Web application development</li>
+                            <li>Smartphone app development</li>
+                        </ul>
+                        <br/>  
+                        <h3 class="text-box-title">Types of development:</h3>
+                        <br/>
+                        <ul>
+                            <li>Frontend & graphical user interface</li>
+                            <li>Backend & server development</li>
+                        </ul>
                     </div>
-                    <div class="image-container-1">
-                        <img src="image-2.png" alt="image could not be displayed">
+                    <div class="different-mediums-img-container">
+                        <img src="static/images/different-mediums.png" alt="Different mediums" class="different-mediums-img"/>
                     </div>
                 </div>
-                <div class="text-image-flex">
+                <div class="text-image">
                     <div class="languages-and-frameworks width-mobile">
-                        <p>
-                            <span>Languages i know:</span><br>
-                            <br>
-                            <ul>
-                                <li> JavaScript</li>    
-                                <li>HTML</li>
-                                <li>CSS</li>
-                            </ul>
-                            <br>
-                        </p>
-                        <p>
-                            <span>Frameworks i know</span><br>
-                            <br>
-                            <ul>
-                                <li>React</li>
-                            </ul>
-                        </p>
+                        <h3 class="text-box-title">Languages i know:</h3>
+                        <br/>
+                        <ul>
+                            <li>JavaScript</li>    
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <br/>
+                        <h3 class="text-box-title">Frameworks i know</h3>
+                        <br/>
+                        <ul>
+                            <li>React</li>
+                        </ul>
                     </div>
-                    <div class="image-container-2">
-                        <img src="image-3.png" alt="Image can not be displayed">
+                    <div class="languages-and-frameworks-img-container">
+                        <img src="static/images/languages-and-frameworks.png" alt="Languages and frameworks" class="languages-and-frameworks-img"/>
                     </div>
                 </div>
                 <div class="contact" id="contact">
+                    <h3 class="text-box-title">Contact:</h3>
                     <p>
-                        <span>Contact:</span><br>
-                        <br>
-                        If you want to contact me you can either <br>
-                        call me or shoot me an email. Either way i will respond :). <br>
-                        <br>
-                        Email: Ludwigmb@hotmail.com <br>
-                        <br>
+                        <br/>
+                        <br/>
+                        If you want to contact me you can either <br/>
+                        call me or shoot me an email. Either way i will respond :). <br/>
+                        <br/>
+                        Email: Ludwigmb@hotmail.com <br/>
+                        <br/>
                         Phone number: +45 29 73 13 63
                     </p>
                 </div>
@@ -110,11 +104,5 @@
          <footer>
             <p>Footer notes | Footer notes</p>
         </footer>
-        <div class="gradient-contatiner">
-            <div class="gradient">
-            </div>
-            <div class="gradient-push">
-            </div>
-        </div>
     </body>
 </html>

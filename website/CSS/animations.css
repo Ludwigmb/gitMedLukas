@@ -1,0 +1,43 @@
+@keyframes fadeInBottom {
+    from {
+      transform: translateY(100px);
+      opacity: 0%;
+    }
+    to {
+      transform: translateY(0px);
+      opacity: 100%;
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      transform: translateX(100px);
+      opacity: 0%;
+    }
+    to {
+      transform: translateX(0px);
+      opacity: 100%;
+    }
+  }
+  
+  @keyframes flexAnimation {
+    from {
+      flex: 0;
+    }
+    to {
+      flex: 1;
+    }
+  }
+
+.header-text-contact {
+    animation: flexAnimation 1s;
+  }
+
+.text-image {
+    animation: fadeInRight 2s;
+  }
+
+.line-border {
+    border-right: red 5px dashed;
+    animation: fadeInBottom 2s;
+  }
